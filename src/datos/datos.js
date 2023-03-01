@@ -9,7 +9,7 @@ async function leerBD() {
         const conexion = await mysql.createConnection({
             host: 'localhost',
             user: 'root',
-            password: '',
+            password: 'contrasena123',
             database: 'almacen'
         });
         // Ejecuta una consulta
@@ -31,7 +31,7 @@ async function insertarBD(producto) {
         const conexion = await mysql.createConnection({
             host: 'localhost',
             user: 'root',
-            password: '',
+            password: 'contrasena123',
             database: 'almacen'
         });
         // Ejecuta una consulta
